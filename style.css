@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+   
+}
+
+
+.nav{
+    
+    width: 100%;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1C77C3;
+    color: white;
+    position: sticky;
+
+}
+.logo-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+.logo-links .logo-txt{
+    margin-bottom: -5px;
+    font-family: fantasy;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+.logo-links .logo-txt span{
+    
+    color: #0A100D;
+    margin-left: 3pxs;
+}
+.logo-moto{
+   
+    font-family: fantasy;
+    color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cartreturn{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border-left: 1px solid white;
+    padding: 15px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row ;
+}
+.search input{
+    width: 500px;
+    padding: 12px;
+    height: 3em;
+    border: none;
+    outline: none;
+    color: rgba(15,85,166,0.8);
+    font-family: cursive;
+    box-shadow: 0px 2px 5px gray;
+    border-radius: 2em;
+    
+}
+.search span{
+    cursor: pointer;
+    text-align: center;
+    margin-left: 1em;
+}
+
+.search span i{
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+.search input:focus{
+    border: 2px solid black;
+    padding-left: 25px;
+}
+.search input::placeholder{
+    color: rgba(15,85,166,0.3);
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+.log{
+    font-size: 1em;
+    
+}
+.cartreturn{
+    cursor: pointer;
+}
+
+.options{
+    width: 100%;
+    background-color: beige;
+    padding-bottom: 12px;
+    box-shadow: 0px 1px 3px gray;
+}
+
+.options ul{
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-size: 1em;
+}
+
+.options ul li:hover{
+    cursor: pointer;
+    color: blue;
+    font-weight: 500px;
+}
+
+
+
+
+
