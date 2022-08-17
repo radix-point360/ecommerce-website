@@ -242,7 +242,7 @@ body {
 /********************************** carousel style  ***********************************/
 /********************************** carousel style  ***********************************/
 /********************************** carousel style  ***********************************/
-.carausel {
+.carousel {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,7 +255,7 @@ body {
   display: none;
 }
 
-.carausel .arrows button {
+.carousel .arrows button {
   /* margin-right: 1%; */
   border: none;
   cursor: pointer;
@@ -263,12 +263,85 @@ body {
   color: #0a100d;
   background-color: transparent;
 }
-.carausel .box1 img {
+.carousel .box1 img {
   cursor: pointer;
   width: 100%;
   height: 100%;
 }
 
+/* footer */
+
+.footer-container{
+  width: 100%;
+  background-color: #0a100d;
+  
+
+}
+
+
+.f-logo img{
+  border: none;
+  border-radius: 50%; 
+  width: 150px;
+  height: 150px;
+}
+
+.f-logo div{
+  margin-top: -15px;
+  font-weight: bolder;
+}
+
+.footer-content{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #0a100d; */
+  color: white;
+}
+
+.f-bottom{
+  text-align: center;
+  grid-column: span 7;
+  background-color: rgba(220, 220, 220, 0.3);
+  border-radius: 0px 0px 10px 10px;
+  padding: 12px;
+}
+
+.f-about{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  text-align: center;
+}
+
+
+
+.f-about a{
+  color: white;
+  text-decoration: none;
+ 
+}
+
+.f-about a:hover{
+  color: rgba(220, 220, 220, 0.5);
+}
+
+.f-h-about{
+  border-radius: 8px;
+  padding: 15px;
+  background-color:rgba(220, 220, 220, 0.3);
+  color: white;
+  cursor: pointer;
+}
+
+.f-h-about:hover{
+  
+  background-color: rgba(220, 220, 220, 0.5);
+}
 /**************************************** responsive *****************************************/
 /**************************************** responsive *****************************************/
 /**************************************** responsive *****************************************/
