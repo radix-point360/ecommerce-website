@@ -208,7 +208,17 @@ body {
   /* border: 1px solid green; */
   width: 33%;
   height: auto;
+  align-self: stretch;
 }
+
+.img-slide img{
+  width: 80%;
+  height: 100%;
+  
+}
+
+
+
 .banner-mid {
   /* border: 1px solid green; */
   width: 33%;
@@ -425,9 +435,17 @@ body {
   margin-bottom: 10px;
 }
 
-/* section3   */
+/* working section3   */
 
-.working-content{
+.working-img{
+  width: 100%;
+}
+.working-img img{
+  width: 100%;
+}
+
+
+/* .working-content{
   position: relative;
   margin-top: 80px;
   display: grid;
@@ -477,20 +495,20 @@ body {
   position: absolute;
   text-align: center;
   line-height: 6ch;
-  top: 0px;
-  /* left: 50px; */
+  top: 0px; */
+  /* left: 50px; 
   right: 10px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   text-align: center;
-  /* background-color: rgba(220, 220, 220, 0.8); */
+
   background-color: #ff7d7d;
   opacity: 0.8;
-}
+} */
 
 
-/* section3 end */
+/* woeking   section3 end */
 
 /* floating screen  starts*/
 
@@ -586,18 +604,20 @@ body {
 
 /* company information starts  */
 company-info-container{
+  width: 100%;
   margin-top: 135px;
 }
 .com-content{
+  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* justify-content: center; */
-  /* align-content: center; */
+  column-gap: 15px;
   align-items: center;
   padding: 15px;
 }
 
 .com-name{
+  justify-self: start;
   width: 30%;
   text-align: center;
 }
@@ -632,11 +652,11 @@ text-decoration: none;
 font-size: 1.2em;
 color: #0a100d;
 cursor: pointer;
-transition: 1.5s;
+transition: 1.5 ease;
 }
 
 .com-links ul a:hover{
-font-size: 1.5em;
+font-size: 1.5rem;
 background-color: black;
 color: gray;
 }
@@ -645,9 +665,10 @@ color: gray;
 
 
 .com-content .com-img img{
-  margin-left: 10%;
-  width: 80%;
-  height: 80%;
+  /* margin-left: 10%; */
+  /* width: 80%; */
+  /* height: 80%; */
+  justify-self: end;
   border: none;
   border-radius: 8px;
   box-shadow: 6px 9px 15px rgba(220, 220, 220, 0.8);
@@ -655,6 +676,9 @@ color: gray;
 
 
 /* company info ends  */
+
+
+
 
 /* products info starts  */
 .p-inner-container{
@@ -690,8 +714,8 @@ color: gray;
 }
 
 .p-content h3,p{
-  padding: 3px;
-  margin-left: 5px;
+  padding-left: 3px;
+  margin-left: 0px;
 }
 
 /* product info ends   */
